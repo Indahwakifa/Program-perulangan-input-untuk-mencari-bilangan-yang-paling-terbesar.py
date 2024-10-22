@@ -1,0 +1,15 @@
+# Initialize max
+max_value = 10
+
+while True:
+    # Input x
+    x = int(input("Enter a value for x: "))
+    
+    # Check if x is 0, if so print max and exit
+    if x == 0:
+        print(f"The max value is: {max_value}")
+        break
+    
+    # Update max if x is greater than the current max
+    if x > max_value:
+        max_value = x
